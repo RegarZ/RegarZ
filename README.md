@@ -28,6 +28,21 @@ Compose, dependency-aware health checks, OCR fallback для сканирова�
 [`Открыть Live Demo →`](https://document-intelligence-demo.dnhnin303661239.chatgpt.site) ·
 [`Код и документация →`](https://github.com/RegarZ/document-intelligence-platform)
 
+### [LLM Evaluation & Prompt Regression Platform](https://github.com/RegarZ/llm-evaluation-platform)
+
+Сервис для воспроизводимого сравнения baseline и candidate версий промпта по
+качеству, валидности JSON, стоимости и p95 latency с автоматическим решением
+`PASS/FAIL` для CI.
+
+**Версия 0.1.0:** FastAPI, CLI, versioned evaluation dataset, Exact Match,
+Token F1, content requirements, quality gates, срезы по тегам, Docker,
+22 теста и покрытие 99%.
+
+**Демонстрационный результат:** качество candidate выросло с 0.842 до 1.000,
+стоимость — на 6.12%, p95 latency — на 2.68%; все бюджеты соблюдены.
+
+[`Код и воспроизводимый эксперимент →`](https://github.com/RegarZ/llm-evaluation-platform)
+
 ### [Сервис структурированного извлечения данных из PDF](https://github.com/RegarZ/pdf-data-extraction-service)
 
 REST API, преобразующий PDF-документы в типизированный JSON: текст по страницам,
