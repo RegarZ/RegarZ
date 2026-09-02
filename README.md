@@ -18,13 +18,14 @@
 Главный интеграционный проект: пользователь загружает PDF, получает извлечённую
 структуру, задаёт вопрос по документу и видит ответ с цитатами до страницы-источника.
 
-**Версия 0.1.0:** FastAPI gateway, два независимых downstream-сервиса, Docker
-Compose, dependency-aware health checks, 15 тестов, покрытие 96%, CI для Python
-3.11–3.13 и проверка Docker-сборки.
+**Версия 0.2.0:** FastAPI gateway, два независимых downstream-сервиса, Docker
+Compose, dependency-aware health checks, OCR fallback для сканированных PDF
+(Tesseract, `rus+eng`), 17 тестов, CI для Python 3.11–3.13 и проверка Docker-сборки.
 
 **Инженерный акцент:** валидация файла до отправки downstream, таймауты,
 нормализация ошибок сервисов и явная обработка сканов без текстового слоя.
 
+[`Открыть Live Demo →`](https://document-intelligence-demo.dnhnin303661239.chatgpt.site) ·
 [`Код и документация →`](https://github.com/RegarZ/document-intelligence-platform)
 
 ### [Сервис структурированного извлечения данных из PDF](https://github.com/RegarZ/pdf-data-extraction-service)
