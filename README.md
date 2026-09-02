@@ -11,7 +11,7 @@
 В проектах уделяю внимание не только демонстрации модели, но и воспроизводимости,
 измеримому качеству, ограничениям и удобному интерфейсу.
 
-## Сейчас работаю над
+## Проекты
 
 ### [Сервис структурированного извлечения данных из PDF](https://github.com/RegarZ/pdf-data-extraction-service)
 
@@ -25,6 +25,19 @@ REST API, преобразующий PDF-документы в типизиро�
 и evaluation-набор с метриками качества.
 
 [`Код и документация →`](https://github.com/RegarZ/pdf-data-extraction-service)
+
+### [RAG Retrieval & Evaluation Service](https://github.com/RegarZ/rag-evaluation-service)
+
+API для гибридного retrieval: deterministic embeddings + BM25, настраиваемый
+reranking, extractive-ответы и цитаты до исходных чанков.
+
+**Версия 0.1.0:** FastAPI, Pydantic, Recall@K, MRR, nDCG@K, Hit Rate,
+12 тестов, покрытие 98%, Dockerfile и успешный CI для Python 3.11–3.13.
+
+**Инженерный акцент:** метрики считаются по уникальным документам, поэтому
+повторные чанки одного источника не завышают качество retrieval.
+
+[`Код и документация →`](https://github.com/RegarZ/rag-evaluation-service)
 
 ## Технологии
 
