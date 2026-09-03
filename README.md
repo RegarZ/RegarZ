@@ -41,7 +41,7 @@
 ## Главный проект — Document Intelligence Platform
 
 <a href="https://document-intelligence-demo.dnhnin303661239.chatgpt.site">
-  <img src="assets/document-intelligence-showcase.png" alt="Document Intelligence: скан счёта, OCR rus+eng, извлечённые поля и ответ с подтверждением на странице 1" width="100%" />
+  <img src="assets/document-intelligence-lab.png" alt="Document Intelligence Lab: библиотека тестовых PDF, OCR rus+eng, извлечённые поля и ответ с подтверждением на странице 1" width="100%" />
 </a>
 
 <p align="center">
@@ -57,7 +57,8 @@
 - orchestration и OCR fallback покрыты 17 автоматическими тестами.
 
 > Live Demo — интерактивная витрина со встроенным обезличенным счётом. Полный
-> backend, OCR-адаптер и Docker Compose находятся в исходном репозитории.
+> набор содержит 5 синтетических документов, 12 страниц и 15 QA-сценариев без
+> персональных данных. Backend, OCR-адаптер и Docker Compose находятся в репозитории.
 
 [`Открыть Live Demo →`](https://document-intelligence-demo.dnhnin303661239.chatgpt.site) ·
 [`Код и документация →`](https://github.com/RegarZ/document-intelligence-platform) ·
